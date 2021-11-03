@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "notelemetry",
+  "version": "${version}",
+  "name": "NoTelemetry",
+  "description": "Disable Minecraft telemetry",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ca.jtai.notelemetry.NoTelemetry"
+    ]
+  },
+  "mixins": [
+    "NoTelemetry.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.4",
+    "minecraft": ">=1.18-alpha.21.38.a"
+  }
+}

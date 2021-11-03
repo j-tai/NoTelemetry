@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ca.jtai.notelemetry.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+  ],
+  "client": [
+    "TelemetrySenderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
