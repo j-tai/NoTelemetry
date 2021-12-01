@@ -1,3 +1,7 @@
+## This mod's functionality has been added to [TieFix](https://github.com/j-tai/TieFix). Please use that mod instead.
+
+***
+
 # NoTelemetry
 
 Disables telemetry in the Minecraft client.
